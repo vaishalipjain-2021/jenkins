@@ -1,0 +1,31 @@
+Started by user [8mha:////4LuwMCkkLCfHy4SQaAgrPZSowa2DE+Ck7jpnCMiSDmKnAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL9ssTM4ozEnEwAfXVQfsMAAAA=[0mvaishali p jain
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Job3
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Job3/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/divyapjain1996/C-test.git # timeout=10
+Fetching upstream changes from https://github.com/divyapjain1996/C-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/divyapjain1996/C-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision bdb31be96e41cad577cc91c37d15c4761ada4377 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bdb31be96e41cad577cc91c37d15c4761ada4377 # timeout=10
+Commit message: "add"
+ > git rev-list --no-walk bdb31be96e41cad577cc91c37d15c4761ada4377 # timeout=10
+[Job3] $ /bin/sh -xe /tmp/jenkins4124001248878541178.sh
++ sudo cd /var/lib/jenkins/C-test
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,23 @@
+Started by user [8mha:////4LuwMCkkLCfHy4SQaAgrPZSowa2DE+Ck7jpnCMiSDmKnAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL9ssTM4ozEnEwAfXVQfsMAAAA=[0mvaishali p jain
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vaishalipjain-2021/program.git
+ > git init /var/lib/jenkins/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/vaishalipjain-2021/program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/vaishalipjain-2021/program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vaishalipjain-2021/program.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 84ad4403b94614538c0f184536a214773bd5cf7e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 84ad4403b94614538c0f184536a214773bd5cf7e # timeout=10
+Commit message: "Rename facr.c to fact.c"
+First time build. Skipping changelog.
+[job1] $ /bin/sh -xe /tmp/jenkins4404035716805175105.sh
+Finished: SUCCESS

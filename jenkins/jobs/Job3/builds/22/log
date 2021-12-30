@@ -1,0 +1,40 @@
+Started by user [8mha:////4LuwMCkkLCfHy4SQaAgrPZSowa2DE+Ck7jpnCMiSDmKnAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL9ssTM4ozEnEwAfXVQfsMAAAA=[0mvaishali p jain
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Job3
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Job3/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/divyapjain1996/C-test.git # timeout=10
+Fetching upstream changes from https://github.com/divyapjain1996/C-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/divyapjain1996/C-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ee7b4877cbd0c6561a72ad1efd6ef0ecbfa20968 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ee7b4877cbd0c6561a72ad1efd6ef0ecbfa20968 # timeout=10
+Commit message: "Merge pull request #3 from Divyap1996/patch-1"
+ > git rev-list --no-walk ee7b4877cbd0c6561a72ad1efd6ef0ecbfa20968 # timeout=10
+[Job3] $ /bin/sh -xe /tmp/jenkins9024902703213803784.sh
++ cd /var/lib/jenkins/workspace/C-test
++ make
+gcc -c main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {
+ ^~~~
+main.c: In function ‘main’:
+main.c:3:2: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+  biggest3();
+  ^~~~~~~~
+main.c:4:2: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+  factorial();
+  ^~~~~~~~~
+main.c:5:2: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+  reverse();
+  ^~~~~~~
+Assembler messages:
+Fatal error: can't create main.o: Permission denied
+make: *** [makefile:4: main.o] Error 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
